@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diffac">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="actionsdiv"
+        android:text="@string/button10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/div4" />
+
+    <EditText
+        android:id="@+id/ErgebnisDiv"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/div4"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/div3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ergebnisdiv"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/ErgebnisDiv"
+        app:layout_constraintStart_toEndOf="@+id/div5"
+        app:layout_constraintTop_toTopOf="@+id/div4" />
+
+    <TextView
+        android:id="@+id/div5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/div5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/div2" />
+
+    <TextView
+        android:id="@+id/div4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="248dp"
+        android:text="@string/div4"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/div2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/div2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/div5"
+        app:layout_constraintStart_toEndOf="@+id/div4"
+        app:layout_constraintTop_toTopOf="@+id/div4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

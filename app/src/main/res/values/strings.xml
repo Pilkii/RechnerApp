@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Sourakas Rechenapp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_addition">Addition</string>
+    <string name="title_activity_additionsac">Additionsac</string>
+    <string name="button2">Addition</string>
+    <string name="hey">=</string>
+    <string name="button">Subtraktion</string>
+    <string name="textview1">+</string>
+    <string name="textview2">Zahl1:</string>
+    <string name="AdditionsZahl1">Zahl1:</string>
+    <string name="textview3">42</string>
+    <string name="textview4">42</string>
+    <string name="button3">Multiplikation</string>
+    <string name="button4">Division</string>
+    <string name="button5">Rechnen mit Münzen</string>
+    <string name="button6">Button</string>
+    <string name="ergebnis">Ergebnis:</string>
+    <string name="zahl1m">Zahl1:</string>
+    <string name="zahl2m">Zahl2:</string>
+    <string name="ergebnis_vergleichen">Ergebnis vergleichen</string>
+    <string name="subtextview">-</string>
+    <string name="sub3textview">=</string>
+    <string name="sub4textview">42</string>
+    <string name="sub5textview">42</string>
+    <string name="buttonmul">Button</string>
+    <string name="textviewmul">Zahl1:</string>
+    <string name="textviewmul1">*</string>
+    <string name="textviewmul2">=</string>
+    <string name="textviewmul3">42</string>
+    <string name="textviewmul4">42</string>
+    <string name="buttondiv">Button</string>
+    <string name="ergebnisdiv">=</string>
+    <string name="div5">42</string>
+    <string name="div4">42</string>
+    <string name="div2">/</string>
+    <string name="div1">Zahl1:</string>
+    <string name="todo6">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="zur_ck_zum_men">Zurück zum Menü</string>
+    <string name="button9">Counter aktualisieren</string>
+    <string name="button10">Ergebnis vergleichen</string>
+    <string name="munzb">Ergebnis vergleichen</string>
+    <string name="Textss">Cent:</string>
+    <string name="cent">Euro:</string>
+    <string name="eurot">Ich sehe insgesamt:</string>
+    <string name="textviewein">Willkommen in deiner App Souraka! Ich habe diese App programmiert, um dich dabei zu unterstützen, deine Mathematikfähigkeiten zu verbessern. Ich wünsche dir viel Erfolg! Dein Markus</string>
+
+</resources>
